@@ -1,5 +1,5 @@
 import { Play } from 'lucide-react';
-import travelerImage from '../../assets/travler.png'; // Update path if needed
+import travelerImage from '../../assets/travler.png'; // Adjust path if needed
 
 function HeroSection() {
   return (
@@ -36,7 +36,7 @@ function HeroSection() {
           </div>
         </div>
         <div className="relative">
-          <div className="w-full h-[32rem] rounded-lg overflow-hidden">
+          <div className="w-full h-[36rem] rounded-lg overflow-hidden">
             <img
               src={travelerImage}
               alt="Traveler"
